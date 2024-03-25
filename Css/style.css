@@ -1,0 +1,31 @@
+.layer-2 {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  opacity: 50%;
+  position: relative;
+  top: 144px;
+  left: 100px;
+  z-index: 2;
+}
+.layer-1 {
+  width: 120px;
+  height: 120px;
+  background-color: blue;
+  opacity: 50%;
+  position: relative;
+  top: 80px;
+  left: 160px;
+  z-index: 1;
+}
+
+.layer-3 {
+  width: 120px;
+  height: 120px;
+  background-color: green;
+  opacity: 50%;
+  position: relative;
+  bottom: -10px;
+  left: 228px;
+  z-index: 3;
+}
